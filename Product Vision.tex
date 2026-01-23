@@ -1,0 +1,140 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setstretch{1.15}
+
+\title{\textbf{Product Vision Document}\\Academic Trading Simulator}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Vision Statement}
+To create a rigorous, realistic, and ethically responsible trading simulator that teaches university students how markets work, emphasizing risk management, decision quality, and reproducible outcomes rather than speculation or gambling behavior. Students will learn why most traders fail—and how disciplined risk management dominates strategy brilliance.
+
+\section*{Problem Statement}
+Trading concepts are often taught theoretically, with limited practical application. Professional trading platforms are too complex, expensive, or unsuitable for beginners. Existing simulators lack educational scaffolding and actionable feedback. Instructors struggle to measure student decision-making quality rather than just outcomes.
+
+Most existing trading simulators:
+\begin{itemize}
+    \item Overemphasize profits and leaderboards
+    \item Ignore transaction costs and execution realities
+    \item Encourage excessive risk-taking
+    \item Lack pedagogical structure and instructor oversight
+\end{itemize}
+
+As a result, students learn misleading lessons about trading and financial markets.
+
+\textit{(Check to see if all of these problems are being solved by our solution)}
+\newpage
+\section*{Stakeholders}
+\begin{itemize}
+    \item Faculty
+    \item Students
+    \item Senior Executive Finance Lab
+    \item Industry Partners
+\end{itemize}
+
+\section*{Product Goals}
+\begin{enumerate}
+    \item Teach risk-adjusted decision making, not profit chasing
+    \item Reflect realistic market constraints
+    \item Enable reproducible, assessable learning outcomes
+    \item Support structured classroom use
+    \item Avoid gamification and gambling reinforcement
+\end{enumerate}
+
+\section*{What This Product Is \emph{Not}}
+\begin{itemize}
+    \item Simulate live trading with real money
+    \item Include casino-style UX elements (e.g., confetti)
+    \item Optimize for entertainment
+    \item Provide trading advice or signals
+\end{itemize}
+
+\section*{User Needs}
+
+\subsection*{Students Need}
+\begin{itemize}
+    \item A safe environment to practice trading without financial risk
+    \item Clear explanations of market mechanics and trading concepts
+    \item Feedback on why a trade succeeded or failed
+    \item Confidence applying theory to real market scenarios
+\end{itemize}
+
+\subsection*{Instructors Need}
+\begin{itemize}
+    \item A platform aligned with learning outcomes
+    \item Tools to track participation, decisions, and progress
+    \item Ability to design simulations
+    \item Visibility into student reasoning, not just P\&L
+\end{itemize}
+
+\section*{Minimum Viable Product}
+
+\subsection*{Market Simulation}
+\begin{itemize}
+    \item Historical Open, High, Low, Close, and Volume data
+    \item Multiple timeframes; delayed and recorded market data
+    \item Corporate actions (splits, dividends)
+    \item Deterministic replay
+\end{itemize}
+
+\subsection*{Order Execution}
+\begin{itemize}
+    \item Market, limit, and stop orders
+    \item Partial fills (simplified)
+    \item First-In-First-Out (FIFO) execution logic
+    \item Slippage and spread modeling
+\end{itemize}
+
+\subsection*{Portfolio and Accounting}
+\begin{itemize}
+    \item Cash balance
+    \item Positions and cost basis
+    \item Realized and unrealized P\&L
+\end{itemize}
+
+\section*{Key Features}
+
+\subsection*{1. Simulated Trading Environment}
+\begin{itemize}
+    \item Deterministic market data (TBD)
+    \item Multi-asset support (equities, ETFs, futures, FX, crypto — configurable)
+    \item Paper trading with virtual capital
+\end{itemize}
+
+\subsection*{2. Educational Interface}
+\begin{itemize}
+    \item Simplified user interface
+    \item Contextual tooltips (TBD)
+    \item Visualizations of order flow, P\&L, risk, and exposure (risk/exposure TBD)
+\end{itemize}
+
+\subsection*{3. Learning Modes}
+\begin{itemize}
+    \item Sandbox mode (free experimentation)
+    \item Scenario mode (historical or hypothetical market events)
+\end{itemize}
+
+\subsection*{4. Strategy and Decision Tracking}
+\begin{itemize}
+    \item Record reasoning behind each trade
+    \item Review and reflect on past decisions
+\end{itemize}
+
+\subsection*{5. Assessment and Analytics (Admin/Teacher Panel)}
+\begin{itemize}
+    \item Evaluate need for a separate teacher panel
+    \item Student dashboards
+    \item Trade logs
+    \item Assignment and grading support
+\end{itemize}
+
+\end{document}
