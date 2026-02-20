@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spline Scroll Demo</title>
+
+  <!-- Your Spline Script -->
+  <script type="module" src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    /* NAVBAR */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    spline-viewer {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 140px 15%;
+    }
+
+    section:nth-child(even) {
+      background: #151515;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+    }
+
+    section p {
+      max-width: 700px;
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 80px;
+      text-align: center;
+      background: black;
+    }
+
+    /* Spacer for fixed nav */
+    .spacer {
+      height: 80px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div><strong>A Story of Love</strong></div>
+    <div>
+      <a href="#US">Us Two</a>
+      <a href="#Why">Why</a>
+      <a href="#Core Memories">Core Memories</a>
+      <a href="#Penguin">Penguin</a>
+    </div>
+  </nav>
+
+  <div class="spacer"></div>
+
+  <!-- HERO WITH YOUR SPLINE SCENE -->
+  <section id = "US" class="hero">
+    <spline-viewer url="https://prod.spline.design/UWoeqiir20o49Dah/scene.splinecode"></spline-viewer>
+    <div class="hero-content">
+      <h1>My KOKOMON and I</h1>
+      <p>Different Flavored Same Soul ^_^</p>
+    </div>
+  </section>
+
+ <!-- ABOUT -->
+<section id="Why" class="about-section">
+  <div class="container">
+    <h2>Why I’m Writing This</h2>
+
+    <div class="letter">
+
+      <p>My love,</p>
+
+      <p>
+        There’s something I need to put into words, not because something is broken between us,
+        but because I don’t want anything unspoken sitting quietly in the corners of our marriage.
+      </p>
+
+      <p>
+        These past two months have been beautiful, and they have also brought up things in me I didn’t expect.
+        Becoming your husband has forced me to see my childhood more clearly. I grew up emotionally filling
+        a space that was never meant to be mine to fill. I became my mother’s comfort, her listener,
+        her steady presence. I carried that willingly. I don’t regret loving her.
+        But I now realize I was standing in a place that should have belonged to my father.
+      </p>
+
+      <p>
+        And lately, that realization has brought up a lot of grief and anger.
+      </p>
+
+      <p>
+        I feel sad for what my mother endured. I feel angry that I had to grow up the way I did.
+        I feel frustrated that so much pain could have been avoided.
+        Sometimes it feels like entire lifetimes of hurt that no one addressed.
+      </p>
+
+      <p>
+        But I need you to hear this clearly: none of that is because of you.
+        And you are not competing with anyone.
+      </p>
+
+      <p>
+        You once expressed something that has stayed with me — that you don’t want to fight
+        for what is already yours. That you don’t want to feel like you’re snatching a son away
+        from his mother just because you exist. That it’s too heavy to hold.
+      </p>
+
+      <p>You are right. You shouldn’t have to hold that.</p>
+
+      <p>
+        You are my wife. You are my partner. You are the person I chose to build a life with.
+        My role has shifted — not because I love my mother less,
+        but because marriage changes the structure of loyalty.
+        You are my priority. Not out of obligation, but out of commitment and love.
+      </p>
+
+      <p>
+        I already try to show up for you the way I believe a husband should —
+        listening first, protecting your heart, being playful,
+        choosing time alone with you, not raising my voice over small things.
+        I will keep doing that. Not to prove anything.
+        But because that is the kind of marriage I want us to have.
+      </p>
+
+      <p>
+        As for my mother — I will love her. I will support her.
+        But I will not make you carry the emotional weight of what happened before you.
+        If we ever pour into her, it will be from strength and unity,
+        not from pressure or guilt. You will never be asked to compete.
+        You will never be asked to shrink.
+      </p>
+
+      <p>
+        The anger I feel toward my father is something I am working through.
+        It’s not something I want leaking into our home.
+        I don’t want to repeat what hurt me.
+        I want to build something safe, something warm,
+        something playful and alive with you.
+      </p>
+
+      <p>
+        If there are moments you feel hurt, distant, or uneasy,
+        I want you to come to me first. Not because you’re complaining —
+        but because you are my partner.
+        I don’t want you to carry things alone the way I did.
+      </p>
+
+      <p>I love my mother.</p>
+      <p>But I chose you.</p>
+      <p>And I choose you again, every day.</p>
+
+      <p>
+        We are not in competition with anyone.
+        We are building something new.
+      </p>
+
+      <p><strong>I love you.</strong></p>
+
+    </div>
+  </div>
+</section>
+
+  <!-- FEATURES -->
+  <section id="Core Memories">
+    <h2>Core Memories</h2>
+    <p>
+      ✔ Met in the Library<br><br>
+      ✔ Somewhere only we know<br><br>
+      ✔ Matched in Beach day<br><br>
+      ✔ Walked into Love<br><br>
+      ✔ Got married in Madina 
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="Penguin">
+    <h2>Contact</h2>
+    <p>
+      Your Penguin <3 <br>
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Fun Bebu Site. All rights reserved HEHE.
+  </footer>
+
+</body>
+</html>
